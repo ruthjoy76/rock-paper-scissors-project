@@ -51,3 +51,4 @@ const gameHandler = (playerSelection) => {
 weaponsButtons.forEach((weaponButton) => {
   weaponButton.addEventListener("click", () => gameHandler(weaponButton.id));
 });
+
